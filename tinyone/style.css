@@ -1,0 +1,154 @@
+a:hover {
+	text-decoration: none;
+}
+
+
+.page-wrapper {
+	margin: 0;
+	padding: 0;
+
+}
+.navbar-header {
+	margin-top: 3%;
+	font-size: 22px;
+	font-family: "PTSans";
+	font-weight: bold
+	
+}
+.nav-text{
+    color:#010101;
+
+}
+
+
+.logo {
+	margin-left: 0;
+	float: left;
+}	
+.first-paragraph {
+	margin-top: 7%;
+	
+}
+.first-paragraph-text {
+	font-size: 20px;
+  	font-family: "PTSans";
+  	color:#010101;
+
+}
+.ipad {
+	margin-top: 5%
+}
+.pager {
+	margin-top: 5%
+}
+h1 {
+	font-size: 32px;
+  	font-family: "PTSans";
+  	font-weight: bold;
+  	text-align: left;
+  	color:#010101;
+  }	
+.second-paragraph{
+	margin-top: 10%;
+	text-align: center;
+	font-size: 32px;
+  	font-family: "PTSans";
+  	color:#010101;
+ 	 font-weight: bold;
+}
+.second-paragraph-text{
+	font-size: 20px;
+  	font-family: "PTSans";
+ 	color: rgb(49, 56, 65);
+  	line-height: 1.2;
+  	  text-align: center;
+}
+.middle-content {
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+
+.subcrible-header {
+	text-align: center;
+	color: #fcdb00;
+	font-size: 32px;
+  	font-family: "PTSans";
+  	font-weight: bold;
+  	line-height: 1;
+}
+.subcrible-sub-header {
+	font-size: 20px;
+  font-family: "PTSans";
+  color: rgb(137, 137, 137);
+  line-height: 1.2;
+  text-align: center;
+
+}
+
+.first-container {
+	background-color: #fcdb00;
+}
+
+.third-container {
+	background-color: #010101;
+}
+input {
+	border-radius: 5px;
+	height: 33px;
+}
+button {
+	background-color: #fcdb00;
+	  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(1, 1, 1);
+  border-radius: 4px;
+}
+
+.icon-margin {
+	margin-left: 5%;
+	margin-top: 10%;
+	
+}
+.icon{
+	position: relative;
+	top: 50px;
+}
+
+.footer {
+	margin-top: 15%;
+	font-size: 16px;
+  	font-family: "PTSans";
+  	color: rgb(137, 137, 137);
+  	line-height: 1.25;
+  	margin-bottom: 10%;
+}
+.footer-text{
+	color: rgb(137, 137, 137);
+}
+
+.footer-text:hover {
+	color: #fcdb00;
+}
+
+
+
+@media screen and (max-width: 530px){
+	.icon-max-530{
+		position: relative;
+	top: 10px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.text-max-767{
+		text-align: center;
+	}
+	h1{
+		text-align: center;
+	}
+	.icon-max-530{
+		position: relative;
+	top: 10px;
+	}
+
+}
