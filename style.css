@@ -31,3 +31,91 @@ a {
 .flex-column{
 	background-color: #f1f1f1;
 }
+.sidebar {
+	margin: 35px;
+	margin-left: 0;
+
+}
+.input-group {
+	flex-direction: row;
+	margin: 35px;
+	margin-left: 0;
+	margin-top: 50px;
+	padding-left: 0;
+	width: 900px;
+	height: 40px;
+}
+.slider{
+	background-color: #c9c9c9;
+	height: 525px;
+
+
+}
+.currently-looking{
+	width: 860px;
+	height: 230px;
+	background-color: #f1f1f1;
+}
+.currently-looking-box{
+	height: 150px;
+	display: inline-block;
+	margin: 20px
+}	
+.discount{
+	width: 860px;
+	height: 130px;
+	background-color: #c9c9c9;
+	margin-top: 40px;
+}
+.advertise{
+	background-color: #c9c9c9;
+}
+.offer{
+	margin-top: 35px;
+	background-color: #c9c9c9;
+	font-size: 36px;
+
+}
+.offer-row-2{
+	margin-top: 50px;
+}
+
+.popular-goods {
+	
+	margin-top: 35px;
+	background-color: #c9c9c9;
+}
+.popular-goods-box {
+	height: 200px;
+	margin: 20px;
+	margin-bottom: 0;
+
+}
+.popular-goods-box-name{
+	font-size: 12px;
+	height: 85px;
+	background-color: #333333;
+	color: white;
+	margin: 20px;
+	margin-top: 0;
+}
+.qwer {
+	padding: 0;
+}
+.footer{
+	margin-top: 35px;
+	background-color: #c9c9c9;
+}
+.categories {
+	margin-top: 35px;
+}
+.supername-text {
+	margin-top: 35px;
+}
+.our-suppliers {
+
+	height: 100px;
+	display: inline-block;
+	margin: 20px;
+	margin-bottom: 40px;
+}
