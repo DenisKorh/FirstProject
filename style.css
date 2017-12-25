@@ -1,7 +1,9 @@
-
-.navbar-nav  {
+a {
+	color: black;
+}
+.nav  {
 	background-color: #c9c9c9;
-	display: inline-flex;
+	flex-direction: row;
 
 }
 
@@ -10,7 +12,22 @@
   background-color: #c9c9c9;
   width: 300px;
   height: 150px;
+  margin: 35px;
 }
+
+/* ??? */
 .number {
 	display: inline-flex;
+	justify-content: flex-end;  
+	margin: 35px;
+}	
+.shopping-cart {
+	background-color: #f1f1f1;
+	margin-left: 45px;
+}
+.second-nav{
+	background-color: #f1f1f1;
+}
+.flex-column{
+	background-color: #f1f1f1;
 }
