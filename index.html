@@ -19,30 +19,30 @@
 <div class="container-fluid">
 	<!--Navbar Header-->
 	<div class="row">
-		<ul class="nav  col-12">
+		<ul class="nav  col-12 ">
 			<li class="nav-item "><a class="nav-link" href="#">Профиль</a></li>
 			<li class="nav-item "><a class="nav-link" href="#">Скидки</a></li>
 			<li class="nav-item "><a class="nav-link" href="#">Информация</a></li>
 			<li class="nav-item "><a class="nav-link" href="#">Справка/помощь</a></li>
-			<li class="nav-item "><a class="nav-link" href="#"><i class="fa fa-bell fa-2x" aria-hidden="true"></i></a></li>
+			<li class="nav-item  offset-lg-4"><a class="nav-link" href="#"><i class="fa fa-bell fa-2x" aria-hidden="true"></i></a></li>
 			<li class="nav-item "><a class="nav-link" href="#"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a></li>
 			<li class="nav-item "><a class="nav-link" href="#">Выход</a></li>
 		</ul>
 		</div>
-
+<div class="justify-content-end"></div>
 <div class="clearfix"></div>
 	
 <div class="row d-flex">
-	<div class="col-3 logo mr-auto p-2">Логотип</div>
-		<div >
-		<div class="number p-2 ">
+	<div class="d-flex col-3 logo mr-auto p-2 justify-content-center align-items-center">Логотип</div>
+		<div class="" >
+		<div class="number p-2 align-items-center ">
 		8 (800) 555-35-35 
 		<a class="nav-link" href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
 		<a class="nav-link " href="#"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
 		<a class="nav-link" href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
 		</div>
-		<div class="p-2 shopping-cart">
-		<a href="">4 товара</a>	 7900 рублей  <i class="fa fa-shopping-cart" aria-hidden="true"></i> корзина
+		<div class="p-2 col-9  shopping-cart align-items-center d-flex justify-content-between">
+		<a href="">4 товара</a>	 7900 рублей  <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i> корзина
 		</div>
 		</div>
 	
@@ -63,7 +63,7 @@
 <div class="row col-12 justify-content-between">
 	<!--Sidebar-->
 	<div class="sidebar col-3">
-	Категории 
+	<p><h5 class=" offset-1">Категории</h5> </p>
 	<div id="accordion" role="tablist">
   <div class="card">
     <div class="card-header" role="tab" id="headingOne">
@@ -205,9 +205,9 @@
 </div>
 </div>
 <!--Currently-Loking, Discount,Advertise-->
-<div class="row col-12 justify-content-between">
+<div class="row col-12 d-flex justify-content-between flex-row">
 <div class="col-8">
- 	<div class="rounded  currently-looking">Пользователи просматривают сейчас :
+ 	<div class="rounded  currently-looking ">Пользователи просматривают сейчас :
  		<div class="row">
  		<div class="border border-dark col-2 currently-looking-box"></div>
  		<div class="border border-dark col-2 currently-looking-box"></div>
@@ -219,7 +219,7 @@
 		Как получить скидку 10% не выходя из дома? ПОЛУЧИТЬ ПРОМОКОД
 	</div>
 </div>
-<div class="advertise col-3 rounded text-center"> Рекламный блок</div>
+<div class="advertise col-3 d-flex  rounded justify-content-center align-items-center"> Рекламный блок</div>
 </div>
 <!--Offer-->
 <div class="row col-12 ">
@@ -235,11 +235,12 @@
 </div>
 </div>
 <!--Popular goods-->
-<div class="row col-12">
+<div class="row col-12  ">
 	<div class="popular-goods col-12 rounded ">
-	<h1>Популярные товары</h1>
+     <div class="row"> <h1>Популярные товары</h1></div>
 		<div class="row"> 
-			<div class="col-2  p-0">
+			<div class="d-flex flex-wrap ">
+			<div class="col-2  p-0 ">
 				<div class="border border-dark popular-goods-box"></div>
 				<div class="popular-goods-box-name">
 				LED Прожектор<br>
@@ -341,7 +342,7 @@
 
 				</div>
 			</div>
-		
+			</div>
 		</div>
 
 	</div>
@@ -389,9 +390,9 @@
 		<a href="#">Ссылка 6</a><br>
 	</div>
 
-	<div class="row col-12">
-		<div class="col-5 offset-1 supername-text "> SuperMegaName! Магазин электротехнических товаров</div>
-		<div class="number col-4 offset-1 ">
+	<div class="row col-12 d-flex justify-content-between">
+		<div class="col-5 offset-1 supername-text d-flex justify-content-start  "> SuperMegaName! Магазин электротехнических товаров</div>
+		<div class="number col-4 offset-1 align-items-center">
 		8 (800) 555-35-35 
 		<a class="nav-link" href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
 		<a class="nav-link " href="#"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
@@ -399,9 +400,9 @@
 		</div>
 	</div>	
 
-	<div class="row col-12">
+	<div class="row col-12 d-flex justify-content-center">
 		<div class="text-center col-12"> <h2>Наши поставщики</h2></div>
-		<div class="border border-dark col-1 offset-1 our-suppliers"></div>
+		<div class="border border-dark col-1 our-suppliers"></div>
 		<div class="border border-dark col-1 our-suppliers"></div>
 		<div class="border border-dark col-1 our-suppliers"></div>
 		<div class="border border-dark col-1 our-suppliers"></div>

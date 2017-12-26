@@ -1,10 +1,16 @@
 a {
 	color: black;
 }
+a:hover {
+	text-decoration: none;
+}
+.container-fluid {
+	margin-right: 0px; 
+}
 .nav  {
 	background-color: #c9c9c9;
 	flex-direction: row;
-
+	font-size: 20px;	
 }
 
 .logo {
@@ -17,20 +23,22 @@ a {
 
 /* ??? */
 .number {
-	display: inline-flex;
-	justify-content: flex-end;  
+	display: inline-flex;  
 	margin: 35px;
+	font-size: 20px;
+  font-family: "PTSans";
+
 }	
 .shopping-cart {
 	background-color: #f1f1f1;
-	margin-left: 45px;
+	margin-left: 55px;
+	height: 35px;
+
 }
 .second-nav{
 	background-color: #f1f1f1;
 }
-.flex-column{
-	background-color: #f1f1f1;
-}
+
 .sidebar {
 	margin: 35px;
 	margin-left: 0;
@@ -40,7 +48,7 @@ a {
 	flex-direction: row;
 	margin: 35px;
 	margin-left: 0;
-	margin-top: 50px;
+	margin-top: 75px;
 	padding-left: 0;
 	width: 900px;
 	height: 40px;
@@ -58,6 +66,7 @@ a {
 }
 .currently-looking-box{
 	height: 150px;
+	width: 150px;
 	display: inline-block;
 	margin: 20px
 }	
@@ -99,9 +108,7 @@ a {
 	margin: 20px;
 	margin-top: 0;
 }
-.qwer {
-	padding: 0;
-}
+
 .footer{
 	margin-top: 35px;
 	background-color: #c9c9c9;
@@ -110,7 +117,8 @@ a {
 	margin-top: 35px;
 }
 .supername-text {
-	margin-top: 35px;
+	margin-top: 55px;
+
 }
 .our-suppliers {
 
@@ -119,3 +127,6 @@ a {
 	margin: 20px;
 	margin-bottom: 40px;
 }
+
+
+
